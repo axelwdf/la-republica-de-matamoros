@@ -1,0 +1,34 @@
+.Slidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.746);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    width: 90px;
+    transform: translateX(90px);
+    transition: 1s;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.open{
+    transform: translateX(0);
+}
+.icons{
+    display: grid;
+}
+.sliderbar-button{
+    margin: 60% auto;
+    filter: drop-shadow(2px 2px 5px #000);
+}
+.icons-socialw{
+    color: #128c7e;   
+}
+.icons-socialf{
+    color: #576b95;   
+}
+.slidebar-link, .slidebar-url{
+    color: #fff;
+    text-decoration: none;
+}
+

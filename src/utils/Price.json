@@ -1,0 +1,30 @@
+[
+    {
+        "producto": "Ricas alitas con papas y ensalada",
+        "precio": "$65 pesos"
+    },
+    {
+        "producto":"Hamburguesa Hawaiana con papas de ojuela o a la francesa",
+        "precio":"$65 pesos"
+    },
+    {
+        "producto":"Tortas grandes de milanesa de pollo",
+        "precio":"$46 pesos"
+    },
+    {
+        "producto":"Sincronizadas",
+        "precio":"3 x 30"
+    },
+    {
+        "producto":"HotDogs",
+        "precio":"2 x 30"
+    },
+    {
+        "producto":"Gorditas de chicharrón",
+        "precio":"$20 pesos / con suadero $30 pesos "
+    },
+    {
+        "producto":"Sopes grandes",
+        "precio":"$20 pesos / con bistec $30 pesos "
+    }
+]

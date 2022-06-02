@@ -1,0 +1,18 @@
+.Prices{
+    background-image: url(https://img.freepik.com/foto-gratis/pared-ladrillo-antiguo-calles-urbanas_23-2148742514.jpg?t=st=1654134737~exp=1654135337~hmac=d5c84641db39518ae4923f2a10e012c07e0b5f78d7ec3a3b9ee43ac25b50e3dc&w=740);
+    background-position: center;
+    background-size: auto;
+    padding: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+.PricesCont{
+    background-color: rgba(255, 255, 255, 0.519);
+    border-radius: 1rem;
+    margin: 2vh auto;
+    padding: 1rem;
+    transition: 1s;
+}
+.PricesCont:hover{
+    box-shadow: 2px 2px 8px #000000;
+}

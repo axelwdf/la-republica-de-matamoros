@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.burger-icon{
+    width: 2rem;
+    height: 2rem;
+    padding: .5rem;
+    color: #Ea7f07;
+    filter: drop-shadow(2px 2px 2px #000);
+    transition: 1s;
+}
+.burger-icon:hover{
+    transform: rotate(360deg);
+}
+button{
+    background: none;
+    border: none;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+.Header{
+    background-image: url(https://scontent.fmex11-3.fna.fbcdn.net/v/t39.30808-6/223037651_880231676183813_4016983279914854899_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEz-besJtdMKEscw8265txOE8VQY9RrT8MTxVBj1GtPwwJLHzhq66HrSv5pliMHX1PvBQkN0uOZEDYHYYc9HnJ4&_nc_ohc=dMc6wYTxWqAAX8WgpSw&_nc_ht=scontent.fmex11-3.fna&oh=00_AT_lEe6A-HmL0AHBEWlQ5wgG8KtDCSHf9-h7fcoEhBoZwA&oe=6296226A);
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    padding: 1rem;    
+    color: #000000;
+    text-shadow: 1px 1px 5px #000;
+    font-family: 'Raleway', sans-serif;
+}
+.Header-ch{
+    background-color: rgba(255, 255, 255, 0.519);
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.Header-title{
+    padding: 15vh;
+}
