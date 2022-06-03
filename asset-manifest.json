@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/la-republica-de-matamoros/static/css/main.5117a1b8.css",
+    "main.js": "/la-republica-de-matamoros/static/js/main.4a831693.js",
+    "index.html": "/la-republica-de-matamoros/index.html",
+    "main.5117a1b8.css.map": "/la-republica-de-matamoros/static/css/main.5117a1b8.css.map",
+    "main.4a831693.js.map": "/la-republica-de-matamoros/static/js/main.4a831693.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5117a1b8.css",
+    "static/js/main.4a831693.js"
+  ]
+}
