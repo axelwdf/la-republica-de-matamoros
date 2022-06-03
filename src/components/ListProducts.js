@@ -7,6 +7,7 @@ import '../styles/listProducts.css';
 
 
 const ListProducts = () => {
+    // eslint-disable-next-line no-unused-vars
     const [listsProducts, setListsProducts] = useState(listProducts);
     return (
         <div className='Listproducts' >
@@ -20,7 +21,7 @@ const ListProducts = () => {
             </h1>
             {
                 listsProducts.map( listProduct => (
-                    <div className="mapJson">
+                    <div className="mapJson" key={listProduct.id} >
                         <img src={listProduct.link} alt={listProduct.categorita} width='250' className='img-product' />
                         <div className="mapJson-content">
                             <h4> {listProduct.title} </h4>

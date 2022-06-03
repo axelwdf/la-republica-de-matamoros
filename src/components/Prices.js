@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
 import '../styles/prices.css';
 const Prices = () => {
+    // eslint-disable-next-line no-unused-vars
     const [prices, setPrices] = useState(price);
     
     return (
@@ -17,7 +18,7 @@ const Prices = () => {
             <h4>Más productos y precios</h4>
             {
                 prices.map( price => (
-                    <div className="PricesCont">
+                    <div className="PricesCont" key={price.id} >
                         <h4>
                             <b>Producto:</b> {price.producto}
                         </h4>
