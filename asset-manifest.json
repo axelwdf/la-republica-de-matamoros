@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/la-republica-de-matamoros/static/css/main.616c3bc0.css",
-    "main.js": "/la-republica-de-matamoros/static/js/main.dff8b283.js",
+    "main.css": "/la-republica-de-matamoros/static/css/main.e9f2864a.css",
+    "main.js": "/la-republica-de-matamoros/static/js/main.1b7eae63.js",
     "index.html": "/la-republica-de-matamoros/index.html",
-    "main.616c3bc0.css.map": "/la-republica-de-matamoros/static/css/main.616c3bc0.css.map",
-    "main.dff8b283.js.map": "/la-republica-de-matamoros/static/js/main.dff8b283.js.map"
+    "main.e9f2864a.css.map": "/la-republica-de-matamoros/static/css/main.e9f2864a.css.map",
+    "main.1b7eae63.js.map": "/la-republica-de-matamoros/static/js/main.1b7eae63.js.map"
   },
   "entrypoints": [
-    "static/css/main.616c3bc0.css",
-    "static/js/main.dff8b283.js"
+    "static/css/main.e9f2864a.css",
+    "static/js/main.1b7eae63.js"
   ]
 }
