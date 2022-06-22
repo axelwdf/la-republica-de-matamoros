@@ -15,19 +15,26 @@ const Prices = () => {
                     <FontAwesomeIcon icon={faArrowAltCircleLeft} className='burger-icon' />
                 </Link>
             </button>
-            <h4>Más productos y precios</h4>
-            {
-                prices.map( price => (
-                    <div className="PricesCont" key={price.id} >
-                        <h4>
-                            <b>Producto:</b> {price.producto}
-                        </h4>
-                        <p>
-                            <b>Precio:</b> {price.precio}
-                        </p>
-                    </div>
-                ) )
-            }
+            <h4>
+                <b>Más productos y precios</b>
+            </h4>
+            <div className="total">
+                {
+                    prices.map( price => (
+                        <div className="PricesCont" key={price.id} >
+                            <h4>
+                                <b>Categoria:</b> {price.categoria}
+                            </h4>
+                            <p>
+                                <b>Producto:</b> {price.producto}
+                            </p>
+                            <p>
+                                <b>Precio:</b> {price.precio}
+                            </p>
+                        </div>
+                    ) )
+                }
+            </div>
         </div>
     );
 };

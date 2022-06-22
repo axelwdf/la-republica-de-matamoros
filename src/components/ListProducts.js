@@ -19,19 +19,21 @@ const ListProducts = () => {
             <h1>
                 Productos
             </h1>
-            {
-                listsProducts.map( listProduct => (
-                    <div className="mapJson" key={listProduct.id} >
-                        <img src={listProduct.link} alt={listProduct.categorita} width='250' className='img-product' />
-                        <div className="mapJson-content">
-                            <h4> {listProduct.title} </h4>
-                            <p>
-                                <b>Categoria:</b> {listProduct.categoria}
-                            </p>
+            <div className="map-product">
+                {
+                    listsProducts.map( listProduct => (
+                        <div className="mapJson" key={listProduct.id} >
+                            <img src={listProduct.link} alt={listProduct.categorita} width='250' className='img-product' />
+                            <div className="mapJson-content">
+                                <h4> {listProduct.title} </h4>
+                                <p>
+                                    <b>Categoria:</b> {listProduct.categoria}
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                ) )
-            }
+                    ) )
+                }
+            </div>
         </div>
     );
 };

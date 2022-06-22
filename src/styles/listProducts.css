@@ -12,10 +12,29 @@
     padding: 2rem;
 }
 .img-product{
+    width: 220px;
+    height: 220px;
     margin: 0 auto;
     border-radius: 1rem;
     filter: drop-shadow(2px 2px 8px #000000);
 }
 .mapJson-content{
     padding: 1rem;
+}
+@media (min-width: 700px){
+
+    .map-product{
+        margin: 0 auto;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-product{
+        width: 250px;
+        height: auto;
+    }
+    .mapJson{
+        width: 95%;
+        padding: 2rem;
+    }
 }

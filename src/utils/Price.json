@@ -1,30 +1,92 @@
 [
     {
-        "producto": "Ricas alitas con papas y ensalada",
+        "categoria": "Tortas",
+        "producto": "Milanesa de pollo",
         "precio": "$65 pesos"
     },
     {
-        "producto":"Hamburguesa Hawaiana con papas de ojuela o a la francesa",
-        "precio":"$65 pesos"
+        "categoria": "Tortas",
+        "producto": "Salchicha o Jamón",
+        "precio": "$40 pesos"
     },
     {
-        "producto":"Tortas grandes de milanesa de pollo",
-        "precio":"$46 pesos"
+        "categoria": "Tortas",
+        "producto": "Huevo",
+        "precio": "$35 pesos"
     },
     {
-        "producto":"Sincronizadas",
-        "precio":"3 x 30"
+        "categoria": "Hamburguesas",
+        "producto": "Sencilla",
+        "precio": "$55 pesos / extra con papas en hojuela $65 / papas a la francesa $70"
     },
     {
-        "producto":"HotDogs",
-        "precio":"2 x 30"
+        "categoria": "Hamburguesas",
+        "producto": "Hawaiana con papas en hojuela",
+        "precio": "$68 pesos / con papas a la francesa $78 "
     },
     {
-        "producto":"Gorditas de chicharrón",
-        "precio":"$20 pesos / con suadero $30 pesos "
+        "categoria": "Hamburguesas",
+        "producto": "Hamburguesa con Tocino, queso y papas en hojuela ",
+        "precio": "$78 pesos / con papas a la francesa $88"
     },
     {
-        "producto":"Sopes grandes",
-        "precio":"$20 pesos / con bistec $30 pesos "
+        "categoria": "Hamburguesas",
+        "producto": "Hamburguesa con Doble carne y papas en hojuela",
+        "precio": "$88 pesos / con papas a la francesa $98"
+    },
+    {
+        "categoria": "Alitas",
+        "producto": "Alitas (BBQ, picosas, ensalada de zanahoria y pepino) + papas en hojuela",
+        "precio": "$70 pesos / con papas a la francesa $85"
+    },
+    {
+        "categoria": "Pizzas",
+        "producto": "Peporoni o hawaiana",
+        "precio": "$75 pesos"
+    },
+    {
+        "categoria": "HotDogs",
+        "producto": "Promoción",
+        "precio": "2 x $30 pesos"
+    },
+    {
+        "categoria": "HotDogs",
+        "producto": "Tocino o carne molida",
+        "precio": "$25 pesos"
+    },
+    {
+        "categoria": "HotDogs",
+        "producto": "Con chilli",
+        "precio": "$25 pesos"
+    },
+    {
+        "categoria": "Nachos",
+        "producto": "Sencillos",
+        "precio": "$25 pesos"
+    },
+    {
+        "categoria": "Nachos",
+        "producto": "Con carne",
+        "precio": "$50 pesos"
+    },
+    {
+        "categoria": "Nachos",
+        "producto": "Con chilli",
+        "precio": "$65 pesos"
+    },
+    {
+        "categoria": "Papas",
+        "producto": "Papas a la francesa individuales",
+        "precio": "$38 pesos"
+    },
+    {
+        "categoria": "Papas",
+        "producto": "Papas a la francesa para compartir",
+        "precio": "$60 pesos"
+    },
+    {
+        "categoria": "Plátano frito",
+        "producto": "Plátanos frito",
+        "precio": "$38 pesos"
     }
 ]
