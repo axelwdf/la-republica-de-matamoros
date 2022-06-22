@@ -13,7 +13,7 @@
 }
 .img-product{
     width: 220px;
-    height: 220px;
+    height: auto;
     margin: 0 auto;
     border-radius: 1rem;
     filter: drop-shadow(2px 2px 8px #000000);
